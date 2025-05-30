@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Projects Wala Agency</title>
+    <meta name="description" content="Get in touch with Projects Wala Agency for your digital project needs. Contact us for web development, mobile apps, UI/UX design and more">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#6366F1', /* Indigo */
+                        secondary: '#8B5CF6', /* Purple */
+                        accent: '#06B6D4', /* Cyan */
+                        dark: '#0F172A',
+                        light: '#FFFFFF'
+                    },
+                    fontFamily: {
+                        sans: ['Poppins', 'sans-serif'],
+                    },
+                    animation: {
+                        'fadeIn': 'fadeIn 0.5s ease-in-out',
+                    },
+                    keyframes: {
+                        fadeIn: {
+                            '0%': { opacity: 0 },
+                            '100%': { opacity: 1 },
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- AOS Animation Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="font-sans bg-light text-dark">
+    <!-- Navigation -->
+    <nav class="fixed w-full bg-white/90 backdrop-blur-sm shadow-sm z-50">
+        <div class="container mx-auto px-4 py-3">
+            <div class="flex justify-between items-center">
+                <!-- Logo -->
+                <a href="index.html" class="text-2xl font-bold text-primary flex items-center">
+                    <span class="text-dark">Projects</span>
+                    <span class="text-primary">Wala</span>
+                </a>
+
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex space-x-8">
+                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="about.html" class="nav-link">About Us</a>
+                    <a href="services.html" class="nav-link">Services</a>
+                    <a href="testimonials.html" class="nav-link">Testimonials</a>
+                    <a href="contact.html" class="nav-link active">Contact</a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <button id="mobile-menu-button" class="md:hidden text-dark focus:outline-none">
+                    <i class="fas fa-bars text-xl"></i>
+                </button>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="md:hidden hidden bg-white mt-2 rounded-lg shadow-lg absolute left-0 right-0 mx-4 p-4">
+                <div class="flex flex-col space-y-4">
+                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="about.html" class="nav-link">About Us</a>
+                    <a href="services.html" class="nav-link">Services</a>
+                    <a href="testimonials.html" class="nav-link">Testimonials</a>
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="pt-32 pb-16 bg-gradient-to-br from-indigo-50 via-purple-50 to-cyan-50">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4" data-aos="fade-up">Contact Us</h1>
+            <p class="text-lg text-gray-600 max-w-2xl mx-auto" data-aos="fade-up" data-aos-delay="100">
+                Have a project in mind? Get in touch with us to discuss how we can help bring your ideas to life.
+            </p>
+        </div>
+    </header>
+
+    <!-- Contact Information Section -->
+    <section class="py-20">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-3 gap-8 mb-16">
+                <!-- Contact Card 1 -->
+                <div class="bg-white p-8 rounded-lg shadow-md text-center" data-aos="fade-up" data-aos-delay="100">
+                    <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-map-marker-alt text-2xl text-primary"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Our Location</h3>
+                    <p class="text-gray-600">
+                        Takalghat<br>
+                        Nagpur, 441122<br>
+                        Maharashtra, India
+                    </p>
+                </div>
+
+                <!-- Contact Card 2 -->
+                <div class="bg-white p-8 rounded-lg shadow-md text-center" data-aos="fade-up" data-aos-delay="200">
+                    <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-phone-alt text-2xl text-primary"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Phone Number</h3>
+                    <p class="text-gray-600">
+                        Main: +91 8010159801<br>
+                       
+                    </p>
+                </div>
+
+                <!-- Contact Card 3 -->
+                <div class="bg-white p-8 rounded-lg shadow-md text-center" data-aos="fade-up" data-aos-delay="300">
+                    <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-envelope text-2xl text-primary"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Email Address</h3>
+                    <p class="text-gray-600">
+                        General: projectswalaagency247@gmail.com<br>
+                        Support: support@projectswala.com<br>
+                    
+                    </p>
+                </div>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-12">
+                <!-- Contact Form -->
+                <div data-aos="fade-right">
+                    <h2 class="text-3xl font-bold mb-6">Send Us a Message</h2>
+                    <p class="text-gray-600 mb-8">
+                        Fill out the form below and we'll get back to you as soon as possible.
+                    </p>
+
+                    <form id="contact-form" class="space-y-6">
+                        <div>
+                            <label for="name" class="block text-gray-700 font-medium mb-2">Your Name</label>
+                            <input type="text" id="name" name="name" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" placeholder="Enter your name">
+                            <p class="text-red-500 text-sm mt-1 hidden error-message"></p>
+                        </div>
+
+                        <div>
+                            <label for="email" class="block text-gray-700 font-medium mb-2">Your Email</label>
+                            <input type="email" id="email" name="email" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" placeholder="Enter your email">
+                            <p class="text-red-500 text-sm mt-1 hidden error-message"></p>
+                        </div>
+
+                        <div>
+                            <label for="subject" class="block text-gray-700 font-medium mb-2">Subject</label>
+                            <input type="text" id="subject" name="subject" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" placeholder="Enter subject">
+                        </div>
+
+                        <div>
+                            <label for="message" class="block text-gray-700 font-medium mb-2">Your Message</label>
+                            <textarea id="message" name="message" rows="5" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" placeholder="Enter your message"></textarea>
+                            <p class="text-red-500 text-sm mt-1 hidden error-message"></p>
+                        </div>
+
+                        <div>
+                            <button type="submit" class="btn-primary w-full py-3">
+                                Send Message
+                                <i class="fas fa-paper-plane ml-2"></i>
+                            </button>
+                        </div>
+
+                        <div id="form-success" class="bg-green-100 text-green-700 p-4 rounded-lg hidden">
+                            <p class="font-medium">Thank you for your message! We'll get back to you soon.</p>
+                        </div>
+                    </form>
+                </div>
+
+                <!-- Map -->
+                <div data-aos="fade-left">
+                    <h2 class="text-3xl font-bold mb-6">Our Location</h2>
+                    <p class="text-gray-600 mb-8">
+                        Visit us at our office or get in touch through the contact form.
+                    </p>
+
+                    <div class="rounded-lg overflow-hidden shadow-lg h-[400px] bg-gray-200">
+                        <!-- Replace with actual map embed code -->
+                        <div class="w-full h-full flex items-center justify-center bg-gray-100">
+                            <div class="text-center p-8">
+                                <i class="fas fa-map-marked-alt text-5xl text-primary mb-4"></i>
+                                <p class="text-gray-600">Interactive map would be embedded here</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-20 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Frequently Asked Questions</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">
+                    Find answers to common questions about our services and process.
+                </p>
+            </div>
+
+            <div class="max-w-3xl mx-auto">
+                <!-- FAQ Item 1 -->
+                <div class="mb-6" data-aos="fade-up" data-aos-delay="100">
+                    <button class="flex justify-between items-center w-full bg-white p-4 rounded-lg shadow-md focus:outline-none">
+                        <span class="text-lg font-bold">What services does Projects Wala Agency offer?</span>
+                        <i class="fas fa-plus text-primary"></i>
+                    </button>
+                    <div class="bg-white px-4 pb-4 rounded-b-lg shadow-md mt-px">
+                        <p class="text-gray-600 pt-4">
+                            We offer a comprehensive range of digital services including web development, mobile app development, UI/UX design, digital marketing, brand strategy, and e-commerce solutions. Our team of experts works collaboratively to deliver exceptional digital experiences tailored to your business needs.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="mb-6" data-aos="fade-up" data-aos-delay="200">
+                    <button class="flex justify-between items-center w-full bg-white p-4 rounded-lg shadow-md focus:outline-none">
+                        <span class="text-lg font-bold">How much does a typical project cost?</span>
+                        <i class="fas fa-plus text-primary"></i>
+                    </button>
+                    <div class="bg-white px-4 pb-4 rounded-b-lg shadow-md mt-px">
+                        <p class="text-gray-600 pt-4">
+                            Project costs vary depending on the scope, complexity, and specific requirements. We provide customized quotes based on your project needs. Contact us for a free consultation and estimate tailored to your project.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="mb-6" data-aos="fade-up" data-aos-delay="300">
+                    <button class="flex justify-between items-center w-full bg-white p-4 rounded-lg shadow-md focus:outline-none">
+                        <span class="text-lg font-bold">What is your project process?</span>
+                        <i class="fas fa-plus text-primary"></i>
+                    </button>
+                    <div class="bg-white px-4 pb-4 rounded-b-lg shadow-md mt-px">
+                        <p class="text-gray-600 pt-4">
+                            Our process typically includes discovery and planning, design, development, testing, launch, and ongoing support. We maintain clear communication throughout the project and involve clients in key decision-making to ensure the final product meets their expectations and business goals.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 4 -->
+                <div class="mb-6" data-aos="fade-up" data-aos-delay="400">
+                    <button class="flex justify-between items-center w-full bg-white p-4 rounded-lg shadow-md focus:outline-none">
+                        <span class="text-lg font-bold">How long does a typical project take to complete?</span>
+                        <i class="fas fa-plus text-primary"></i>
+                    </button>
+                    <div class="bg-white px-4 pb-4 rounded-b-lg shadow-md mt-px">
+                        <p class="text-gray-600 pt-4">
+                            Project timelines vary based on complexity and scope. A simple website might take 4-6 weeks, while a complex web application or mobile app could take 3-6 months. During our initial consultation, we'll provide a more accurate timeline based on your specific project requirements.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white pt-16 pb-8">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
+                <!-- Company Info -->
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Projects Wala Agency</h3>
+                    <p class="text-gray-400 mb-4">
+                        Creating exceptional digital experiences that drive business growth and user engagement.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="text-gray-400 hover:text-white transition-colors">Home</a></li>
+                        <li><a href="about.html" class="text-gray-400 hover:text-white transition-colors">About Us</a></li>
+                        <li><a href="services.html" class="text-gray-400 hover:text-white transition-colors">Services</a></li>
+                        <li><a href="testimonials.html" class="text-gray-400 hover:text-white transition-colors">Testimonials</a></li>
+                        <li><a href="contact.html" class="text-gray-400 hover:text-white transition-colors">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Services -->
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Services</h3>
+                    <ul class="space-y-2">
+                        <li><a href="services.html" class="text-gray-400 hover:text-white transition-colors">Web Development</a></li>
+                        <li><a href="services.html" class="text-gray-400 hover:text-white transition-colors">Mobile App Development</a></li>
+                        <li><a href="services.html" class="text-gray-400 hover:text-white transition-colors">UI/UX Design</a></li>
+                        <li><a href="services.html" class="text-gray-400 hover:text-white transition-colors">Digital Marketing</a></li>
+                        <li><a href="services.html" class="text-gray-400 hover:text-white transition-colors">Brand Strategy</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Info -->
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Contact Us</h3>
+                    <ul class="space-y-2">
+                        <li class="flex items-start">
+                            <i class="fas fa-map-marker-alt mt-1 mr-3 text-primary"></i>
+                            <span class="text-gray-400">Takalghat, Nagpur Maharashtra</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-phone-alt mr-3 text-primary"></i>
+                            <span class="text-gray-400">+91 8010159801</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-envelope mr-3 text-primary"></i>
+                            <span class="text-gray-400">projectswalaagency247@gmail.com</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-gray-800 pt-8 mt-8 text-center text-gray-400">
+                <p>&copy; 2025 Projects Wala Agency. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+    <!-- Custom JavaScript -->
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+</body>
+</html>

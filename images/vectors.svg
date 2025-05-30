@@ -1,0 +1,140 @@
+<!-- Vector Icons Collection for Projects Wala Agency -->
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  
+  <!-- Web Development Icon -->
+  <symbol id="web-dev-icon" viewBox="0 0 64 64">
+    <defs>
+      <linearGradient id="webGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" style="stop-color:#E53E3E;stop-opacity:1" />
+        <stop offset="100%" style="stop-color:#F56565;stop-opacity:1" />
+      </linearGradient>
+    </defs>
+    <!-- Monitor -->
+    <rect x="8" y="16" width="48" height="32" rx="2" fill="url(#webGrad)" opacity="0.1"/>
+    <rect x="8" y="16" width="48" height="32" rx="2" stroke="url(#webGrad)" stroke-width="2" fill="none"/>
+    <!-- Screen -->
+    <rect x="12" y="20" width="40" height="24" rx="1" fill="url(#webGrad)" opacity="0.2"/>
+    <!-- Code Lines -->
+    <line x1="16" y1="26" x2="28" y2="26" stroke="url(#webGrad)" stroke-width="2"/>
+    <line x1="16" y1="30" x2="36" y2="30" stroke="url(#webGrad)" stroke-width="2"/>
+    <line x1="16" y1="34" x2="24" y2="34" stroke="url(#webGrad)" stroke-width="2"/>
+    <line x1="16" y1="38" x2="32" y2="38" stroke="url(#webGrad)" stroke-width="2"/>
+    <!-- Stand -->
+    <rect x="28" y="48" width="8" height="8" rx="1" fill="url(#webGrad)"/>
+    <rect x="20" y="56" width="24" height="4" rx="2" fill="url(#webGrad)"/>
+  </symbol>
+
+  <!-- Mobile App Icon -->
+  <symbol id="mobile-app-icon" viewBox="0 0 64 64">
+    <defs>
+      <linearGradient id="mobileGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" style="stop-color:#3B82F6;stop-opacity:1" />
+        <stop offset="100%" style="stop-color:#60A5FA;stop-opacity:1" />
+      </linearGradient>
+    </defs>
+    <!-- Phone -->
+    <rect x="20" y="8" width="24" height="48" rx="4" fill="url(#mobileGrad)" opacity="0.1"/>
+    <rect x="20" y="8" width="24" height="48" rx="4" stroke="url(#mobileGrad)" stroke-width="2" fill="none"/>
+    <!-- Screen -->
+    <rect x="24" y="16" width="16" height="28" rx="2" fill="url(#mobileGrad)" opacity="0.2"/>
+    <!-- App Icons -->
+    <rect x="26" y="18" width="4" height="4" rx="1" fill="url(#mobileGrad)"/>
+    <rect x="32" y="18" width="4" height="4" rx="1" fill="url(#mobileGrad)"/>
+    <rect x="26" y="24" width="4" height="4" rx="1" fill="url(#mobileGrad)"/>
+    <rect x="32" y="24" width="4" height="4" rx="1" fill="url(#mobileGrad)"/>
+    <!-- Home Button -->
+    <circle cx="32" cy="50" r="2" fill="url(#mobileGrad)"/>
+  </symbol>
+
+  <!-- E-commerce Icon -->
+  <symbol id="ecommerce-icon" viewBox="0 0 64 64">
+    <defs>
+      <linearGradient id="ecommerceGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" style="stop-color:#10B981;stop-opacity:1" />
+        <stop offset="100%" style="stop-color:#34D399;stop-opacity:1" />
+      </linearGradient>
+    </defs>
+    <!-- Shopping Bag -->
+    <path d="M16 20 L48 20 L44 52 L20 52 Z" fill="url(#ecommerceGrad)" opacity="0.2"/>
+    <path d="M16 20 L48 20 L44 52 L20 52 Z" stroke="url(#ecommerceGrad)" stroke-width="2" fill="none"/>
+    <!-- Handles -->
+    <path d="M24 20 C24 14 28 10 32 10 C36 10 40 14 40 20" stroke="url(#ecommerceGrad)" stroke-width="2" fill="none"/>
+    <!-- Dollar Sign -->
+    <circle cx="32" cy="36" r="8" fill="url(#ecommerceGrad)" opacity="0.3"/>
+    <text x="32" y="42" text-anchor="middle" fill="url(#ecommerceGrad)" font-size="12" font-weight="bold">$</text>
+  </symbol>
+
+  <!-- SEO Icon -->
+  <symbol id="seo-icon" viewBox="0 0 64 64">
+    <defs>
+      <linearGradient id="seoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" style="stop-color:#8B5CF6;stop-opacity:1" />
+        <stop offset="100%" style="stop-color:#A78BFA;stop-opacity:1" />
+      </linearGradient>
+    </defs>
+    <!-- Magnifying Glass -->
+    <circle cx="28" cy="28" r="16" fill="url(#seoGrad)" opacity="0.2"/>
+    <circle cx="28" cy="28" r="16" stroke="url(#seoGrad)" stroke-width="2" fill="none"/>
+    <line x1="40" y1="40" x2="52" y2="52" stroke="url(#seoGrad)" stroke-width="3"/>
+    <!-- Chart Inside -->
+    <polyline points="20,32 24,28 28,30 32,24 36,26" stroke="url(#seoGrad)" stroke-width="2" fill="none"/>
+    <circle cx="24" cy="28" r="1" fill="url(#seoGrad)"/>
+    <circle cx="28" cy="30" r="1" fill="url(#seoGrad)"/>
+    <circle cx="32" cy="24" r="1" fill="url(#seoGrad)"/>
+  </symbol>
+
+  <!-- Support Icon -->
+  <symbol id="support-icon" viewBox="0 0 64 64">
+    <defs>
+      <linearGradient id="supportGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" style="stop-color:#F59E0B;stop-opacity:1" />
+        <stop offset="100%" style="stop-color:#FBBF24;stop-opacity:1" />
+      </linearGradient>
+    </defs>
+    <!-- Headset -->
+    <path d="M16 32 C16 20 24 12 32 12 C40 12 48 20 48 32 L48 40 C48 42 46 44 44 44 L40 44 C38 44 36 42 36 40 L36 36 C36 34 38 32 40 32 L44 32" stroke="url(#supportGrad)" stroke-width="2" fill="none"/>
+    <path d="M16 32 L20 32 C22 32 24 34 24 36 L24 40 C24 42 22 44 20 44 L16 44 C14 44 12 42 12 40 L12 32" stroke="url(#supportGrad)" stroke-width="2" fill="none"/>
+    <!-- Microphone -->
+    <rect x="30" y="44" width="4" height="8" rx="2" fill="url(#supportGrad)"/>
+    <line x1="28" y1="56" x2="36" y2="56" stroke="url(#supportGrad)" stroke-width="2"/>
+  </symbol>
+
+  <!-- Team Icon -->
+  <symbol id="team-icon" viewBox="0 0 64 64">
+    <defs>
+      <linearGradient id="teamGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" style="stop-color:#EF4444;stop-opacity:1" />
+        <stop offset="100%" style="stop-color:#F87171;stop-opacity:1" />
+      </linearGradient>
+    </defs>
+    <!-- Person 1 -->
+    <circle cx="24" cy="20" r="8" fill="url(#teamGrad)" opacity="0.3"/>
+    <path d="M12 48 C12 40 16 36 24 36 C32 36 36 40 36 48" stroke="url(#teamGrad)" stroke-width="2" fill="none"/>
+    <!-- Person 2 -->
+    <circle cx="40" cy="20" r="8" fill="url(#teamGrad)" opacity="0.3"/>
+    <path d="M28 48 C28 40 32 36 40 36 C48 36 52 40 52 48" stroke="url(#teamGrad)" stroke-width="2" fill="none"/>
+  </symbol>
+
+  <!-- Rocket Icon -->
+  <symbol id="rocket-icon" viewBox="0 0 64 64">
+    <defs>
+      <linearGradient id="rocketGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" style="stop-color:#EC4899;stop-opacity:1" />
+        <stop offset="100%" style="stop-color:#F472B6;stop-opacity:1" />
+      </linearGradient>
+    </defs>
+    <!-- Rocket Body -->
+    <ellipse cx="32" cy="32" rx="8" ry="20" fill="url(#rocketGrad)" opacity="0.3"/>
+    <ellipse cx="32" cy="32" rx="8" ry="20" stroke="url(#rocketGrad)" stroke-width="2" fill="none"/>
+    <!-- Rocket Nose -->
+    <polygon points="32,12 40,32 24,32" fill="url(#rocketGrad)"/>
+    <!-- Fins -->
+    <polygon points="24,44 20,52 28,48" fill="url(#rocketGrad)"/>
+    <polygon points="40,44 44,52 36,48" fill="url(#rocketGrad)"/>
+    <!-- Window -->
+    <circle cx="32" cy="28" r="3" fill="url(#rocketGrad)" opacity="0.5"/>
+    <!-- Fire -->
+    <ellipse cx="32" cy="56" rx="4" ry="8" fill="#FFA500" opacity="0.8"/>
+  </symbol>
+
+</svg>
